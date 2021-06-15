@@ -1,0 +1,44 @@
+.form
+    margin: 20px 0
+    color: rgb(101,101,101)
+
+.title
+    padding: 15px 20px
+    font-size: 20px
+    border-bottom: 2px solid rgb(231,232,236)
+.inputName
+    text-align: right
+.item
+    display: grid
+    align-items: center
+    grid-template-columns: 1fr 2.5fr
+
+.input
+    margin: 10px 0 10px 10px
+    & input
+        width: 300px
+        max-height: 15px
+        outline: none
+        border: 2px solid rgb(231,232,236)
+        border-radius: 4px
+
+.line
+    height: 2px
+    margin: 0 25px
+    background: rgb(231,232,236)
+.save
+    display: flex
+    justify-content: center
+    align-items: center
+.save button
+    background: rgb(81,129,184)
+    border: 0
+    border-radius: 4px
+    padding: 8px 30px
+    color: #ffffff
+    margin: 20px 0
+    cursor: pointer
+    &:hover
+        background: #5181b8c9
+    &:disabled
+        background: #e0e0e0
